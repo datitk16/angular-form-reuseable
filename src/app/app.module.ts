@@ -1,3 +1,5 @@
+import { CommentFormComponent } from './share/comment/comment.component';
+import { ReactiveFormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -10,7 +12,9 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    CommentFormComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
